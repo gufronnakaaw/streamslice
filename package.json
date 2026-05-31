@@ -1,0 +1,22 @@
+{
+  "name": "streamslice",
+  "description": "StreamSlice converts video files into HLS (m3u8) streams.",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.6",
+    "bunqueue": "^2.7.14",
+    "hono": "^4.12.2",
+    "zod": "^4.3.6"
+  }
+}
